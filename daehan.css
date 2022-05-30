@@ -1,7 +1,10 @@
 *{padding: 0;margin: 0;}
 
 .header{
-    width: 1200px;height: 100px;margin: 0 auto;
+    width: 100% ;height: 100px;
+    /* margin: 0 auto; */
+    border-top: 3px solid navy;
+    box-sizing: border-box;
 }
 
 .main{
@@ -14,11 +17,25 @@
 }
 
 .footer{
-    width: 1200px;height: 100px;margin: 0 auto;
+    width: 100%;height: 100px;margin: 0 auto;
+    background-color: pink;
 }
 
-.logo{ float: left; width: 200px; height: 100px; background-color: hotpink;}
-.gnb{ float: left; width: 1000px; height: 100px; background-color: green;}
+.wrap{
+    width: 1200px; height: 100%;
+    margin: 0 auto;
+}
+
+/* 열간 레이아웃 */
+
+h1{
+    float: left; width: 200px; height: 100%;
+    background-color: coral;
+}
+
+.gnb{
+    float: left; width: 1000px; height: 100%; background-color: green;
+}
 
 .notice , .banner , .shortcut {
     float: left; width: 400px; height: 200px;
@@ -27,6 +44,10 @@
 .banner{ background-color: rgb(216, 34, 116);}
 .shortcut{ background-color: rgb(163, 197, 38);}
 
-.hadan{ float: left; width: 1000px; height: 50px; background-color: rgb(27, 225, 179);}
-.copyright{ float: left; width: 1000px; height: 50px; background-color: rgb(112, 234, 205);}
+.hadan , .copyright { 
+    float: left; width: 1000px; height: 50px;
+}
+.hadan{ background-color: brown;}
+.copyright{ background-color: rgb(220, 42, 223);}
+
 
